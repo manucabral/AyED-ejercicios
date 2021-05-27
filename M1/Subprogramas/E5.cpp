@@ -16,10 +16,7 @@ int main(){
 
 void calcularRaices(float a, float b, float c, float &r1, float &r2){
     float d = b * b - 4 * a * c;
-    if(d > 0){
-        r1 = ( -b + sqrt(d) ) / ( 2 * a);
-        r2 = ( -b - sqrt(d) ) / ( 2 * a);
-    }else
-        r1 = -b / (2 * a);
+    r1 = d > 0 ? ( -b + sqrt(d) ) / ( 2 * a) : -b / (2 * a);
+    r2 = d > 0 ? ( -b - sqrt(d) ) / ( 2 * a) : 0;
     return;
 }
