@@ -10,14 +10,14 @@ int main(){
     float sublot_average = 0;
 
     while(number >= 0){
+        number = 0;
         sublot++;
         sublot_acum = 0;
         position = 0;
 
-        while(true){
+        while(number <= 0){
+            cout << "hola " << number << endl;
             cout << "A number for sublot " << sublot << " :"; cin >> number;
-
-            if(number <= 0) break;  
 
             position++;
             sublot_acum += number;

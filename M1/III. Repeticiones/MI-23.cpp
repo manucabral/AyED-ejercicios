@@ -13,11 +13,8 @@ int main(){
     float number = 0, max_number_negative = -999999, min_range = 99999, min_number_positive = 999999;
     float average = 0, acum = 0, count = 0;
 
-    while(true){
+    while(!cin.fail()){
         cin >> number;
-        
-        if(cin.fail())
-            break;
         
         max_number_negative = number > max_number_negative && number < 0 ? number : max_number_negative;
         min_number_positive = number > 0 && number < min_number_positive ? number : min_number_positive;

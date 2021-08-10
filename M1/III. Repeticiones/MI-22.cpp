@@ -10,10 +10,8 @@ int main(){
 
     cin >> actual_date;
 
-    while(true){
-
+    while(strcmp(name, "FIN") != 0){
         cout << "Nombre: "; cin >> name;
-        if(strcmp(name, "FIN") == 0) break;
         
         cout << "Fecha de nacimiento: "; cin >> date_of_birth;
 

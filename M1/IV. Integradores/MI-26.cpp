@@ -4,29 +4,40 @@ using namespace std;
 
 int main(){
 
-    int identificacion = 0, puerto = 0, identificacionContenedorPesado = 0;
-    int totalPrimerPuerto = 0, totalSegundoPuerto = 0, totalTercerPuerto = 0;
-    float peso = 0, pesoTotalATrasladar = 0, contenedorMasPesado = 0;
+    int id = 0, seaport = 0, total_weight = 0, id_heavier_container = 0;
+    int f_port = 0, s_port = 0, t_port = 0;
+    float weight = 0, max_weight = 0;
 
-    for(int i = 0; i < 100; i++){
-        cin >> identificacion;
-        cin >> peso;
-        cin >> puerto;
-
-        if(peso > contenedorMasPesado){
-            contenedorMasPesado = peso;
-            identificacionContenedorPesado = identificacion;
-        }
-        switch(puerto){
-            case 1: totalPrimerPuerto++; break;
-            case 2: totalSegundoPuerto++; break;
-            case 3: totalTercerPuerto++; break;
+    for (int i = 0; i < 100; i++)
+    {
+        cout << "Identificacion: "; cin >> id;
+        cout << "Peso: "; cin >> weight;
+        
+        while(seaport != 1 && seaport != 2 && seaport != 3){
+            cout << "Puerto: "; 
+            cin >> seaport;
         }
 
-        pesoTotalATrasladar += peso;
+        total_weight += weight;
+
+        if(weight > max_weight){
+            max_weight = weight;
+            id_heavier_container = id;
+        }
+
+        switch(seaport){
+            case 1: f_port++; break;
+            case 2: s_port++; break;
+            case 3: t_port++; break;
+        }
     }
 
-    // couts..
+    cout << "Total weight: " << total_weight << endl;
+    cout << "Heavier container: " << id_heavier_container << endl;
+
+    cout << "1 seaport containers: " << f_port << endl;
+    cout << "2 seaport containers: " << s_port << endl;
+    cout << "3 seaport containers: " << t_port << endl;
 
     return 0;
 }
