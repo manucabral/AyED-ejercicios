@@ -7,3 +7,7 @@ Ejercicios resueltos de cada modulo de Algoritmos y Estructura de Datos
   - [Repeticiones](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/III.%20Repeticiones)
   - [Integradores](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/IV.%20Integradores)
   - [Funciones](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/Subprogramas)
+
+- [Adicional](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional)
+  - [Subprogramas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Subprogramas)
+  - [Vectores](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Vectores)
