@@ -6,8 +6,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 void swap(int *a, int *b)
 {
     int temp = *a;
@@ -20,10 +18,10 @@ void bubble_sort_desc(int *arr, int size)
     for (int i = 0; i < size; i++)
         for (int j = 0; j < size - 1; j++)
             if (arr[j] < arr[j + 1])
-                swap(&arr[j], &arr[j+1]);
+                swap(&arr[j], &arr[j + 1]);
 
     for (int i = 0; i < size; i++)
-        cout << arr[i] << " ";
+        std::cout << arr[i] << " ";
 }
 
 int main(int argc, char const *argv[])

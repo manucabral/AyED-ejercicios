@@ -8,23 +8,23 @@
 
 #include <iostream>
 
-using namespace std;
-
 int main(int argc, char const *argv[])
 {
     char arr[20], ch;
     int cont = 0;
-    cin >> ch;
+    std::cin >> ch;
 
-    while(ch != '/' || cont == 19){
+    while (ch != '/' || cont == 19)
+    {
         arr[cont] = ch;
-        cin >> ch;
+        std::cin >> ch;
         cont++;
     };
 
-    cout << "Normal: " << arr << endl;
-    cout << "Inverted: ";
-    for (int i = cont - 1; i >= 0; i--) cout << arr[i];
-    
+    std::cout << "Normal: " << arr << std::endl;
+    std::cout << "Inverted: ";
+    for (int i = cont - 1; i >= 0; i--)
+        std::cout << arr[i];
+
     return 0;
 }

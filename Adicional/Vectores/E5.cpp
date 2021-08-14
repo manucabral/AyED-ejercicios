@@ -6,8 +6,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 int scalar_arrays(int *arr1, int *arr2, int size)
 {
     int sum = 0;
@@ -30,15 +28,16 @@ int main(int argc, char const *argv[])
 
     while (size > 10 || size < 2)
     {
-        cout << "Enter size: ";
-        cin >> size;
+        std::cout << "Enter size: ";
+        std::cin >> size;
     }
 
     sum_arrays(first_arr, second_arr, size, output_arr);
 
     for (int i = 0; i < size; i++)
-        cout << output_arr[i] << " ";
+        std::cout << output_arr[i] << " ";
 
-    cout << endl << scalar_arrays(first_arr, second_arr, size);
+    std::cout << std::endl
+              << scalar_arrays(first_arr, second_arr, size);
     return 0;
 }

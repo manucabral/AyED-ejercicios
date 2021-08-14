@@ -8,28 +8,29 @@
 
 #include <iostream>
 
-using namespace std;
+void reverse(int *arr, int end = 0, int start = 0)
+{
 
-void reverse(int *arr, int end=0, int start=0){
-
-    if(start >= end) return;
+    if (start >= end)
+        return;
 
     // swap elements
     int tmp = arr[start];
     arr[start] = arr[end];
     arr[end] = tmp;
-    
-    reverse(arr, end-1, start+1);
+
+    reverse(arr, end - 1, start + 1);
 }
 
 int main(int argc, char const *argv[])
 {
     int arr[] = {28, 35, 12, 43, 56, 77};
-    int arr_size = sizeof(arr)/sizeof(arr[0]);
+    int arr_size = sizeof(arr) / sizeof(arr[0]);
 
     reverse(arr, arr_size - 1, 0);
 
-    for (size_t i = 0; i < arr_size - 1; i++) cout << arr[i] << " ";
-    
+    for (size_t i = 0; i < arr_size - 1; i++)
+        std::cout << arr[i] << " ";
+
     return 0;
 }
