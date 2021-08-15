@@ -27,6 +27,6 @@ void bubble_sort_desc(int *arr, int size)
 int main(int argc, char const *argv[])
 {
     int arr[6] = {10, 300, 85, 32, 12};
-    bubble_sort_desc(arr, 5);
+    bubble_sort_desc(arr, 5);   
     return 0;
 }

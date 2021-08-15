@@ -12,6 +12,7 @@ void sort(int arr[M][N], int *res)
     for (int i = 0; i < M; i++)
         for (int j = 0; j < N; j++)
             res[i * N + j] = arr[i][j];
+        
 }
 
 void swap(int *a, int *b)
