@@ -18,13 +18,14 @@ void sort_asc(char arr[][COLUMNS][STR_LENGHT])
 {
     char aux[STR_LENGHT];
     f(m, ROWS)
-        f(n, COLUMNS) if (atoi(arr[n + 1][3]) < atoi(arr[n][3]))
-            f(c, COLUMNS)
-    {
-        strcpy(aux, arr[n][c]);
-        strcpy(arr[n][c], arr[n + 1][c]);
-        strcpy(arr[n + 1][c], aux);
-    }
+        f(n, COLUMNS - m) 
+            if (atoi(arr[n + 1][3]) < atoi(arr[n][3]))
+                f(c, COLUMNS)
+                {
+                    strcpy(aux, arr[n][c]);
+                    strcpy(arr[n][c], arr[n + 1][c]);
+                    strcpy(arr[n + 1][c], aux);
+                }
 }
 
 void read(char arr[][4][STR_LENGHT], int m)
