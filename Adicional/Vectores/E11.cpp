@@ -21,9 +21,8 @@ void swap(int *a, int *b)
 void bubble_sort(int *arr, int size)
 {
     f(i, size)
-        f(j, size-1)
-            if (arr[j] > arr[j + 1])
-                swap(&arr[j], &arr[j + 1]);
+        f(j, size - 1) if (arr[j] > arr[j + 1])
+            swap(&arr[j], &arr[j + 1]);
 }
 
 int main(int argc, char const *argv[])
@@ -43,10 +42,11 @@ int main(int argc, char const *argv[])
             f(k, P)
                 arr[(i * M + j) * P + k] = matrix[i][j][k];
     // sort asc
-    bubble_sort(arr, N*M*P);
-    
+    bubble_sort(arr, N * M * P);
+
     f(i, N * M * P)
-        std::cout << arr[i] << " ";
-    
+            std::cout
+        << arr[i] << " ";
+
     return 0;
 }
