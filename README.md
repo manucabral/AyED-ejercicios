@@ -9,5 +9,7 @@ Ejercicios resueltos de cada modulo de Algoritmos y Estructura de Datos
   - [Funciones](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/Subprogramas)
 
 - [Adicional](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional)
+  - [Algoritmos de Ordenamiento](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Algoritmos%20de%20Ordenamiento)
   - [Subprogramas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Subprogramas)
   - [Vectores](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Vectores)
+  - [Estructuras](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Estructuras)
