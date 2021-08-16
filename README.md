@@ -1,4 +1,9 @@
-# AyED-ejercicios
+# Algoritmos y Estructura de Datos
+
+![](https://img.shields.io/badge/Hecho%20con-%20C-1f425f.svg)
+![](https://img.shields.io/badge/Hecho%20con-%20C++-1f425f.svg)
+[![](https://img.shields.io/badge/Licencia-GPLv3-blue.svg)](https://github.com/manucabral/AyED-ejercicios/blob/main/LICENSE)
+
 Ejercicios resueltos y apuntes de cada modulo de Algoritmos y Estructura de Datos
 
 - [Modulo 1](https://github.com/manucabral/AyED-ejercicios/tree/main/M1)
