@@ -1,5 +1,10 @@
-# AyED-ejercicios
-Ejercicios resueltos de cada modulo de Algoritmos y Estructura de Datos
+# Algoritmos y Estructura de Datos
+
+![](https://img.shields.io/badge/Hecho%20con-%20C-1f425f.svg)
+![](https://img.shields.io/badge/Hecho%20con-%20C++-1f425f.svg)
+[![](https://img.shields.io/badge/Licencia-GPLv3-blue.svg)](https://github.com/manucabral/AyED-ejercicios/blob/main/LICENSE)
+
+Ejercicios resueltos y apuntes de cada modulo de Algoritmos y Estructura de Datos
 
 - [Modulo 1](https://github.com/manucabral/AyED-ejercicios/tree/main/M1)
   - [Asignaciones](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/I.%20Asignaciones)
@@ -9,5 +14,7 @@ Ejercicios resueltos de cada modulo de Algoritmos y Estructura de Datos
   - [Funciones](https://github.com/manucabral/AyED-ejercicios/tree/main/M1/Subprogramas)
 
 - [Adicional](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional)
+  - [Algoritmos de Ordenamiento](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Algoritmos%20de%20Ordenamiento)
   - [Subprogramas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Subprogramas)
   - [Vectores](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Vectores)
+  - [Estructuras](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Estructuras)
