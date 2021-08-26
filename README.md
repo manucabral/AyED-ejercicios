@@ -1,11 +1,11 @@
 # Algoritmos y Estructura de Datos
 
-![](https://img.shields.io/badge/Hecho%20con-%20C-1f425f.svg)
-![](https://img.shields.io/badge/Hecho%20con-%20C++-1f425f.svg)
+![](https://img.shields.io/badge/Hecho%20en-%20C/C++-1f425f.svg)
 [![](https://img.shields.io/badge/Licencia-GPLv3-blue.svg)](https://github.com/manucabral/AyED-ejercicios/blob/main/LICENSE)
 
-Ejercicios resueltos y apuntes de cada modulo de Algoritmos y Estructura de Datos
+Ejercicios resueltos de Algoritmos y Estructura de Datos
 
+## Navegación
 - [Modulo 1](https://github.com/manucabral/AyED-ejercicios/tree/main/Módulo%201)
   - [Asignaciones](https://github.com/manucabral/AyED-ejercicios/tree/main/Módulo%201/I.%20Asignaciones)
   - [Análisis de caso](https://github.com/manucabral/AyED-ejercicios/tree/main/Módulo%201/II.%20Análisis%20de%20caso)
