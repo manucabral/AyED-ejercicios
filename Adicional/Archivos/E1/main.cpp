@@ -13,7 +13,7 @@ int read_archive(char *filename)
 
     if (file)
     {
-        while (fread(&num, sizeof(float), sizeof num, file))
+        while (fread(&num, sizeof(float), 1, file))
             std::cout << num << std::endl;
         fclose(file);
         return 0;
@@ -33,7 +33,7 @@ int write_archive(char *filename, int max)
         {
             std::cout << "Ingresa valor: ";
             std::cin >> num;
-            fwrite(&num, sizeof(float), sizeof num, file);
+            fwrite(&num, sizeof(float), 1, file);
         }
         fclose(file);
         return 0;
