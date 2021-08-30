@@ -29,12 +29,10 @@ void pop(int *arr, int size, int index)
     }
 
     arr[index] = -1;
-    int last_moved = -1;
     for (int i = index; i < size; i++)
         if (i + 1 < SIZE){
             arr[i] = arr[i + 1];
-            if(arr[i] == arr[i+1])
-                arr[i+1] = -1;
+            arr[i + 1] = -1;
         }
 
 }
@@ -74,7 +72,8 @@ int main(int argc, char const *argv[])
 
     // eliminando elemento posicion 0
     pop(arr, SIZE, 0);
+    std::cout << std::endl;
     display(arr, SIZE);
-    
+
     return 0;
 }
