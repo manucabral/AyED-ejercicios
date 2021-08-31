@@ -12,14 +12,27 @@
 */
 
 #include <iostream>
-#define SIZE 5
+#define SIZE 20
 
+/**
+ * @brief Sets the value of all elements from a array to -1
+ * 
+ * @param arr Target array.
+ * @param size Size of array.
+ */
 void init(int *arr, int size)
 {
     for (int i = 0; i < size; i++)
         arr[i] = -1;
 }
 
+/**
+ * @brief Remove an element from an simple array.
+ * 
+ * @param arr Target array.
+ * @param size Size of array.
+ * @param index Target index.
+ */
 void pop(int *arr, int size, int index)
 {
     if (arr[index] == -1)
@@ -37,6 +50,13 @@ void pop(int *arr, int size, int index)
 
 }
 
+/**
+ * @brief Get the Last Index of an array.
+ * 
+ * @param arr Target array.
+ * @param size Size of the array.
+ * @return int last element index.
+ */
 int getLastIndex(int *arr, int size)
 {
     for (int i = 0; i < size; i++)
@@ -45,11 +65,24 @@ int getLastIndex(int *arr, int size)
     return -1;
 }
 
+/**
+ * @brief Display a simple array.
+ * 
+ * @param arr Target array.
+ * @param size Size of array.
+ */
 void display(int *arr, int size){
     for(int i=0; i<size;i++)
         std::cout << arr[i] << " ";
 }
 
+/**
+ * @brief Add an element to the array.
+ * 
+ * @param arr Target array.
+ * @param size Size of array.
+ * @param num Value to add.
+ */
 void push(int *arr, int size, int num)
 {
     int index = getLastIndex(arr, size);
