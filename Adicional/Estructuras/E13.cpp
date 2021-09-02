@@ -30,7 +30,7 @@ void mostrarMenu()
     std::cout << "b. Listado de empleados a jubilarse." << std::endl;
     std::cout << "c. Edad promedio de los empleados." << std::endl;
     std::cout << "d. Datos de un empleado." << std::endl;
-    std::cout << "s. Cerrar programa." << std::endl;
+    std::cout << "esc. Cerrar programa." << std::endl;
 }
 
 void inicializarDatos(Empleado *arr, int size)
@@ -105,6 +105,13 @@ int procesarIngreso(Empleado *arr, int size)
     return 1;
 }
 
+void swap(Empleado *p1, Empleado *p2)
+{
+    Empleado temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+}
+
 int procesoMostrarEmpleadosJubilados(Empleado *arr, int size)
 {
     if (ultimoElemento(arr, size) == 0)
@@ -113,10 +120,19 @@ int procesoMostrarEmpleadosJubilados(Empleado *arr, int size)
         return 0;
     }
 
+    Empleado ordenados[size];
+
+    f(i, ultimoElemento(arr, size))
+        ordenados[i] = arr[i];
+
+    f(i, ultimoElemento(arr, size))
+        f(j, ultimoElemento(arr, size) - 1) if (strcmp(ordenados[j].nombre, ordenados[j + 1].nombre) > 0)
+            swap(&ordenados[j], &ordenados[j + 1]);
+
     std::cout << std::endl
               << "LISTA DE EMPLEADOS:" << std::endl;
-    f(i, ultimoElemento(arr, size)) if (arr[i].edad > 60)
-        mostrarEmpleado(arr[i]);
+    f(i, ultimoElemento(arr, size)) if (ordenados[i].edad > 60)
+        mostrarEmpleado(ordenados[i]);
 
     return 1;
 }
