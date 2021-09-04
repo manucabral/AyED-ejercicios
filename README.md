@@ -18,3 +18,5 @@ Ejercicios resueltos de Algoritmos y Estructura de Datos
   - [Subprogramas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Subprogramas)
   - [Vectores](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Vectores)
   - [Estructuras](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Estructuras)
+  - [Pilas y colas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Pilas%20y%20colas)
+  - [Punteros](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Punteros)
