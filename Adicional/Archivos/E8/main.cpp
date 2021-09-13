@@ -8,8 +8,6 @@
 
 #define FILENAME "alumnos"
 
-using namespace std;
-
 typedef struct
 {
     int dni, legajo;
