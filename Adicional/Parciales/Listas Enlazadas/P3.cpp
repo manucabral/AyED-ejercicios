@@ -1,7 +1,6 @@
 /**
  * Intercambie los nodos que tienen los numeros 42 y 54 de modo que la lista quede ordenada.
  * Puede utilizar un unico puntero auxiliar: Nodo *aux
-
  */
 
 struct Nodo
@@ -18,7 +17,7 @@ int main(int argc, char const *argv[])
     Lista->sgte = new Nodo();
     Lista->sgte->info = 54;
     Lista->sgte->sgte = new Nodo();
-    Lista->sgte->sgte->info = 123;
+    Lista->sgte->sgte->info = 43;
     Lista->sgte->sgte->sgte = new Nodo();
     Lista->sgte->sgte->sgte->info = 61;
 
