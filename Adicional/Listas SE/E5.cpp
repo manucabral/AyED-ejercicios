@@ -1,6 +1,11 @@
+/**
+ * Realice un programa que lea de un archivo datos de alumnos de un curso. A medida
+ * que el archivo se va leyendo va insertando los registros en una lista. Liste finalmente
+ * todos los nodos para verificar que la operación fue exitosa
+ */
+
 #include <stdio.h>
 #include <iostream>
-#include <cstring>
 
 #define NOMBRE_ARCHIVO "alumnos.utn"
 
@@ -58,7 +63,7 @@ void Mostrar(Nodo *lista)
 {
     while (lista)
     {
-        cout << lista->alumno.nombre << " " << lista->alumno.apellido << endl;
+        cout << lista->alumno.nombre << " " << lista->alumno.apellido << " " << lista->alumno.legajo << endl;
         lista = lista->siguiente;
     }
 }
