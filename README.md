@@ -21,4 +21,5 @@ Ejercicios resueltos de Algoritmos y Estructura de Datos
   - [Pilas y colas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Pilas%20y%20colas)
   - [Punteros](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Punteros)
   - [Listas simplemente enlazadas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Listas%20SE)
+  - [Listas doblemente enlazadas](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Listas%20DE)
   - [Parciales](https://github.com/manucabral/AyED-ejercicios/tree/main/Adicional/Parciales)
